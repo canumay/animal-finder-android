@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:columnCount="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:useDefaultMargins="true">
+
+
+        <TextView
+            android:id="@+id/twLevelScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: 0"
+            android:textColor="#404040"
+            android:textSize="20sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1" />
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            app:layout_rowSpan="1">
+            <TextView
+                android:id="@+id/twLevelTimer"
+                android:layout_width="40sp"
+                android:layout_height="38sp"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:text="20"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/twLevelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level X"
+            android:textSize="25sp"
+            android:textColor="#2E148C"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_columnWeight="1"
+            app:layout_columnSpan="2"
+            app:layout_gravity="fill_horizontal"
+            app:layout_rowSpan="1"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_columnSpan="2"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:tag="1"
+                app:srcCompat="@drawable/question" />
+
+            <ImageButton
+                android:id="@+id/ib2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:tag="2"
+                app:srcCompat="@drawable/question" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_columnSpan="2"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:tag="3"
+                app:srcCompat="@drawable/question" />
+
+            <ImageButton
+                android:id="@+id/ib4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:tag="4"
+                app:srcCompat="@drawable/question" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_columnSpan="2"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:tag="5"
+                app:srcCompat="@drawable/question" />
+
+            <ImageButton
+                android:id="@+id/ib6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:tag="6"
+                app:srcCompat="@drawable/question" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowSpan="1"
+            app:layout_columnSpan="2"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:tag="7"
+                app:srcCompat="@drawable/question" />
+
+            <ImageButton
+                android:id="@+id/ib8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:tag="8"
+                app:srcCompat="@drawable/question" />
+        </LinearLayout>
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
