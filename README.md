@@ -11,9 +11,14 @@ If may encounter issues with TTS Engine try to test it with other Android API Le
 
 ### Screenshots
 
-| Screenshot 1  | Screenshot 2  |Screenshot 3 |
-| ------------------------------------------------------------  | ------------------------------------------------------------ | | ------------------------------------------------------------ |
-| <img src="images/game1.png" alt="mobile" width=200 /> | <img src="images/game2.png" alt="mobile" width=200 />   |  <img src="images/game3.png" alt="mobile" width=200 />   | 
+## Main Menu
+<img src="images/game1.png" alt="mobile" width=200 />
+
+## Game Play 1
+<img src="images/game2.png" alt="mobile" width=200 />
+
+## Game Play 2
+<img src="images/game3.png" alt="mobile" width=200 />
 
 <br/>
 
