@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "AnimalFinder-HW1-17050111016"
