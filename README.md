@@ -2,6 +2,13 @@
 
 Animal Finder Game developed for  CENG427 Programming Mobile Devices lecture
 
+
+### Important Note
+
+```sh
+If may encounter issues with TTS Engine try to test it with other Android API Level (minimum 4)
+```
+
 ### Screenshots
 
 | Screenshot 1  | Screenshot 2  |Screenshot 3 |
